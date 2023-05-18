@@ -1,0 +1,8 @@
+.container1{
+    display: flex;
+    
+}
+.container2 p{
+    color: green;
+    text-align: center;
+}

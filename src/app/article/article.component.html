@@ -1,0 +1,13 @@
+<div class="card m-3" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">{{photo}}</h5>
+      <h6 class="card-subtitle mb-2 text-muted">{{titre}}</h6>
+      <p class="card-text">{{description}}</p>
+      <a href="#" class="btn btn-success"(click)="onlike()">j'aime</a>
+      <a href="#" class="btn btn-danger"(click)="ondislike()">j'aime pas</a>
+      <p>{{nblike}}</p>
+      <input type="text"[(ngModel)]="nbcommentaire">
+      <p>{{nbcommentaire}}</p>
+    </div>
+  </div>
+  
